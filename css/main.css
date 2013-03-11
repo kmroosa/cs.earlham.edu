@@ -1,0 +1,242 @@
+/*
+ * Filename: main.css
+ * Author(s): Leif DeJong
+ * Created: Feb 23, 2013
+ *
+ * Table of Contents: 
+ *    1) Defaults
+ *    2) Typography
+ *    3) Header
+ *    4) Main Navigation
+ *        a) Search Customizatoin
+ *    5) Content Wrap
+ *    6) Side Navigation
+ *    7) Content
+ *    8) Extra Components
+ *    9) Footer
+ */
+ 
+/* 1) Defaults
+=============================================== */
+body {
+  background: #f1f1f1;
+}
+
+/* 2) Typography
+=============================================== */
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+p {}
+img {}
+blockquote {}
+ul {}
+ul li {}
+ol {}
+ol li {}
+
+/* 3) Header
+=============================================== */
+.header {}
+.header-inner{}
+.header .header-inner .site-logo {
+  margin: 20px 0;
+}
+
+/* 4) Main navigation-inner
+=============================================== */
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .nav > li > a {
+  padding: 56px 15px;
+  font-family: Georgia,'Times New Roman',Times,serif;
+  font-size: 12pt;
+  font-weight: 550;
+}
+.navbar .nav > li.active > a {
+  background-image: url(images/arrow_up.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  bottom: -1px;
+  position: relative;
+}
+.navbar-inner {
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+.navbar .btn-navbar {
+  background: none;
+  color: #555;
+  text-shadow: none;
+  margin-right: -20px;
+  margin-bottom: 20px;
+}
+  
+/* a) Search Customization */
+#s {
+  float: right;
+  -webkit-transition-duration: 400ms;
+  -webkit-transition-property: width, background;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-duration: 400ms;
+  -moz-transition-property: width, background;
+  -moz-transition-timing-function: ease;
+  -o-transition-duration: 400ms;
+  -o-transition-property: width, background;
+  -o-transition-timing-function: ease;
+  width: 12px;
+}
+#s:focus {
+  background-color: #f9f9f9;
+  background-position: 7% 40%;
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.20) inset;
+   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.20) inset;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.20) inset;
+  -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+      border-radius: 2px;
+  width: 120px;
+  padding: 4px 3px 6px 30px;
+}
+input#s {
+  background: url(images/search.png) no-repeat;
+  background-position: 49% 37%;
+  padding-bottom: 6px;
+  padding-left: 13px;
+}
+input#s:hover {
+  cursor: default;
+}
+.navbar-search {
+  padding: 48px 0;
+}
+.navbar-search .search-query {
+  height: 21px;
+  border: none;
+  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.20) inset;
+   -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.20) inset;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.20) inset;
+  -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+      border-radius: 0px;
+}
+.navbar-search .search-query:-moz-placeholder {
+  color: #555;
+}
+
+/* 5) Content Wrap
+=============================================== */
+.wrap {}
+.wrap-inner {}
+
+/* 6) Side Navigation
+=============================================== */
+.navigation {
+  margin-right: -1px;
+  margin-left: -29px;
+  position: relative;
+  right: -29px;
+  z-index: 100;
+}
+.navigation-inner {
+  clear: both;
+  position: relative !important;
+}
+.navigation-inner-title {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 20pt;
+  text-align: center;
+  font-family: Georgia,'Times New Roman',Times,serif;
+}
+.navigation-inner ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.navigation-inner ul li {
+  clear: both;
+  margin: 0;
+}
+.navigation-inner ul li a {
+  border-bottom: 1px solid #E1E1E1;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 11pt;
+  color: #777;
+  display: block;
+  height: 48px;
+  margin: 0;
+  outline: medium none;
+  position: relative;
+  text-decoration: none;
+  text-indent: 20px;
+  line-height: 3.4em;
+}
+.navigation-inner ul li a:hover {
+  background: #f9f9f9;
+  color: #000;
+}
+.navigation-inner ul li.active a {
+  background: url(images/arrow_right.png) no-repeat scroll right 0 #f9f9f9;
+  font-weight: bold;
+  margin-right: -1px;
+}
+.navigation-inner ul li.active a:hover {
+  background: url(images/arrow_right.png) no-repeat scroll right 0 #f9f9f9;
+}
+.navigation-inner ul li:last-child > a {
+  border-bottom: none;
+}
+
+/* 7) Content
+=============================================== */
+.content {}
+.content-inner {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  z-index: 5;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+}
+
+/* 8) Extra Components
+=============================================== */
+.well {
+  background: #f9f9f9;
+  -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+      border-radius: 0;
+  overflow: hidden;
+}
+
+.box {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  z-index: 5;
+  -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.30);
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,30);
+      box-shadow: 0 0 3px 0 rgba(0,0,0,.30);
+  overflow: hidden;
+}
+
+/* 9) Footer
+=============================================== */
+.footer {}
+.footer-inner {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+  margin-bottom: 20px;
+}
