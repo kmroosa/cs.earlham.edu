@@ -1,7 +1,9 @@
-# Welcome to the cs.earlham.edu
-This is the Earlham College CS Content Adminitration Groups repository
+# Welcome to the cs.earlham.edu Web Repository
+This repository is managed by the Content Administration Group (CAG) running out of Earlham College
 
-## To Contribute: 
+### To Contribute:
+<strong>Note:</strong> GitHub Help Pages: http://help.github.com/ <br />
+
 1. Create a GitHub account if you do not have one
   * [GitHub Signup](https://github.com/signup/free)
 2. Login into your GitHub if you have not already
