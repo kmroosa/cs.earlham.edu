@@ -45,5 +45,5 @@ This is the Earlham College CS Content Adminitration Groups repository
      * Go back to step 2 of these instructions
   * Command Line: 
      * In your fork directory, type: ```git pull https://github.com/earlham/cs.earlham.edu```
-        * This will pull all the changes from the core back into your fork
+         * This will pull all the changes from the core back into your fork
 
