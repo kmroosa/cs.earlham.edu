@@ -1,0 +1,19 @@
+/people/OVERVIEW
+
+  [Kate] I think we could do without the well here.
+
+/applied_groups/GREEN_SCIENCE
+
+  [Kate] There appears to be a CSS problem so that the content box for Green Science 
+  is not long enough to interact with the arrow at the sidebar. Could we make 
+  all of the boxes (for all content groups) a standard size? Are we going to link from
+  current pages to the individual group sites/pages or are we allowing them to edit on
+  the current pages?
+  
+ /jobs/OVERVIEW
+ 
+  [Kate] Could we split this page into 2? In other sections, the overview page is
+  just the overview with text and I suppose pictures at some point. Should we do 
+  that here and have another page in the left sidebar for "student positions"?
+  Instead of the wells under each tab, maybe an accordian would be useful as a list
+  of the jobs available with a small amount of hidden space for a brief description.
